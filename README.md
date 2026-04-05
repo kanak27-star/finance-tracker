@@ -1,16 +1,38 @@
-# React + Vite
+# Finance Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React + Vite dashboard built with Tailwind CSS and static mock data. It demonstrates frontend UI design, responsive layout, state handling, and simulated role-based UI behavior.
 
-Currently, two official plugins are available:
+## What is included
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Summary cards for Current Balance, Income, and Expenses
+- Time-based balance trend visualization
+- Categorical spending breakdown
+- Transactions table with Date, Amount, Category, and Type
+- Search, sort, and filter controls
+- Viewer/Admin role toggle with admin-only action UI
+- Insights section for highest spend category, expense ratio, and monthly comparison
+- Responsive layout and empty-state handling
 
-## React Compiler
+## Assignment alignment
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Dashboard overview: summary cards + charts
+- Transactions section: data table with search, sort, and filter
+- Role-based UI: Viewer mode is read-only, Admin mode shows extra action controls
+- Insights: quick finance observations based on transaction data
+- State management: React `useState` and `useMemo` for transactions, filters, sorting, and role
+- UI/UX: clean, readable, mobile-friendly interface
 
-## Expanding the ESLint configuration
+## Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+From `finance_tracker`:
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local Vite URL shown in the terminal.
+
+## Notes
+
+This is a frontend-only implementation using mock data. No backend or deployment is required to satisfy the assignment.
