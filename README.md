@@ -36,3 +36,6 @@ Open the local Vite URL shown in the terminal.
 ## Notes
 
 This is a frontend-only implementation using mock data. No backend or deployment is required to satisfy the assignment.
+
+link to project
+prepal-five.vercel.app
